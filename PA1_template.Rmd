@@ -50,6 +50,9 @@ print(paste("The 5 minute interval which contains the maximum number of steps is
 
 
 ## Imputing missing values
+
+#### Replacing the missing values with average no of steps with respective to that interval which has been calculated in the previous step(j1)
+
 ```{r}
 
 final<-data
